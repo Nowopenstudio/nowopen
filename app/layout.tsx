@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { getData, getWeather } from "./util/sanity";
+import { getData} from "./util/sanity";
 import React from "react";
 import SmoothScrolling from "./util/SmoothScrolling";
 
