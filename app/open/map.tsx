@@ -35,7 +35,7 @@ export default function Map({data}:any){
        if(skrink && ref.current){ 
         
          timer = setTimeout(()=>{
-               const speed = 30
+               const speed = 25
               let cx =  Math.floor(pan.x - mousePos.x*speed)
            let cy =  Math.floor(pan.y - mousePos.y*speed)
             if(cx > 0) cx=0
