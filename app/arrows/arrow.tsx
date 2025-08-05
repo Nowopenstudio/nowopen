@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect } from 'react';
-import { Hori, Line, Vert } from '../components/svg';
+import { Hori, Vert } from '../components/svg';
 
 
 
