@@ -193,6 +193,14 @@ h1{
   animation:blink .3s infinite;
 }
 
+.info{
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+
+.info.active{
+  opacity:1;
+}
 
 
 
